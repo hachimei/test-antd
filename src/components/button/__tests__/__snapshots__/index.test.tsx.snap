@@ -1,0 +1,84 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button fixbug renders {0} , 0 and {false} 1`] = `
+<button
+  className="ant-btn"
+  onClick={[Function]}
+  type="button"
+>
+  0
+</button>
+`;
+
+exports[`Button fixbug renders {0} , 0 and {false} 2`] = `
+<button
+  className="ant-btn"
+  onClick={[Function]}
+  type="button"
+>
+  <span>
+    0
+  </span>
+</button>
+`;
+
+exports[`Button fixbug renders {0} , 0 and {false} 3`] = `
+<button
+  className="ant-btn"
+  onClick={[Function]}
+  type="button"
+/>
+`;
+
+exports[`Button renders characters correctly 1`] = `
+<button
+  className="ant-btn"
+  onClick={[Function]}
+  type="button"
+>
+  <span>
+    嘤嘤赢
+  </span>
+</button>
+`;
+
+exports[`Button renders characters correctly 2`] = `
+<button
+  className="ant-btn"
+  onClick={[Function]}
+  type="button"
+>
+  <span>
+    嘤 嘤
+  </span>
+</button>
+`;
+
+exports[`Button renders characters correctly 3`] = `
+<button
+  className="ant-btn"
+  onClick={[Function]}
+  type="button"
+>
+  <i
+    className="anticon anticon-book"
+  />
+  <span>
+    嘤嘤
+  </span>
+</button>
+`;
+
+exports[`Button should support link button 1`] = `
+<a
+  className="ant-btn"
+  href="http://ant.design"
+  onClick={[Function]}
+  target="_blank"
+  type={undefined}
+>
+  <span>
+    link button
+  </span>
+</a>
+`;
